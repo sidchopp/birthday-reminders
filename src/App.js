@@ -14,7 +14,7 @@ function App() {
         <List people={people} />
 
       </section>
-      <button onClick={() => setPeople([])}>clear all</button>
+      {/* <button onClick={() => setPeople([])}>clear all</button> */}
     </main>
   )
 }

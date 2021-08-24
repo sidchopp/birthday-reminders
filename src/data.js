@@ -1,3 +1,4 @@
+// Example of name export( though not an ideal approach)
 export default [
   {
     id: 1,

@@ -8,6 +8,14 @@ import './app.css'
 
 function App() {
   const [people, setPeople] = useState(data)
+  // for toggle 
+  const handleClick = () => {
+    if (people === data) {
+      setPeople([])
+    } else {
+      setPeople(data)
+    }
+  }
   return (
     <main>
       <section className=' card-main'>
@@ -16,7 +24,7 @@ function App() {
 
       </section>
       <div className="d-grid gap-2">
-        <Button variant="primary" size="lg" onClick={() => setPeople([])}>clear all</Button>
+        <Button variant="primary" size="lg" onClick={handleClick}>Click me!</Button>
       </div>
     </main>
   )

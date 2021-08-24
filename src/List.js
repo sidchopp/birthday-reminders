@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card, Button, Figure } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -12,7 +12,13 @@ const List = ({ people }) => {
         return (
           <Card className="text-center bg-dark text-white  " key={id} >
             <Card.Header >{person.name}</Card.Header>
-            <Card.Img variant="top" src={image} alt={name} />
+            <Card.Img
+              width={300}
+              height={480}
+              alt={nickname}
+              src={image}
+            />
+            {/* <Card.Img variant="top" src={image} alt={name} /> */}
             <Card.Body>
               <Card.Title><b style={{ color: '#6495ED' }}>{nickname}</b></Card.Title>
               <Card.Text>

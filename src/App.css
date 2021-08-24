@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.booklist {
+.card-main {
   width: 90vw;
   max-width: 1170px;
   margin: 5rem auto;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .booklist {
+  .card-main {
     grid-template-columns: repeat(3, 1fr);
     /* To make each grid's size according to its content size */
     /* align-items: start; */

@@ -34,7 +34,7 @@ const Data = [
     nickname: 'Devaansh',
     birthday: "5 April",
     image: "https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.18169-9/12109274_1477761135887392_8470887770405127389_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=174925&_nc_ohc=7fsLjuwt_NoAX9lIDKX&_nc_ht=scontent.fyyc3-1.fna&oh=94cc738078171e62fa18574a300e5a3b&oe=614B5525",
-    about: "https://www.facebook.com/usha.chhabra.351"
+    about: ""
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const Data = [
     birthday: "28 June",
     image:
       'https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.6435-9/64365401_10157541363624365_4586927567780446208_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=olZr0696Ue4AX-zuoEn&_nc_ht=scontent.fyyc3-1.fna&oh=b66f2b8dbfe49f09d53d59f707d9be13&oe=61499AA3',
-    about: "https://www.facebook.com/nchopra1958"
+    about: ""
   },
   {
     id: 6,

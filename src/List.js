@@ -14,7 +14,7 @@ const List = ({ people }) => {
             <Card.Header >{person.name}</Card.Header>
             <Card.Img
               width={300}
-              height={480}
+              height={400}
               alt={nickname}
               src={image}
             />

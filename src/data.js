@@ -51,7 +51,7 @@ const Data = [
     nickname: 'Mummy(Mohali)',
     birthday: "11 July",
     image:
-      'https://images.unsplash.com/photo-1616582400687-8a93c101fba2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80',
+      'https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.18169-9/941179_10151681580589365_555869616_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=x80rQZldmrMAX_A4Bs0&_nc_ht=scontent.fyyc3-1.fna&oh=8743c584a25ac5e1b9a1893c60954783&oe=614A185F',
     about: "https://www.facebook.com/nchopra1958"
   },
   {
@@ -70,7 +70,7 @@ const Data = [
     nickname: 'Allen',
     birthday: "9 August",
     image:
-      'https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.18169-9/12347688_10154379934843294_3557338176117152405_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=CAPxFMulSL8AX8Km4Xa&_nc_ht=scontent.fyyc3-1.fna&oh=1b2a035f8f276dd89333639848069661&oe=614CA4EE',
+      'https://scontent.fyyc3-1.fna.fbcdn.net/v/t1.6435-9/117289937_10158923720629365_157166322076628278_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=3UWUNdmqZ8IAX_52Cs4&_nc_ht=scontent.fyyc3-1.fna&oh=4a89b3876cfcd32d08aaa687f8486d21&oe=614978FE',
     about: "https://www.facebook.com/aishwar.negi"
   },
   {

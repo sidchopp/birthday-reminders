@@ -3,7 +3,7 @@ import { Navbar, Container } from 'react-bootstrap';
 function Nav() {
   return (
     <>
-      <Navbar bg="light"  >
+      <Navbar sticky="top" bg="dark" variant="dark" >
         <Container>
           <Navbar.Brand style={{ fontSize: '2.1rem' }}> <i class="bi bi-calendar3"></i> </Navbar.Brand>
 

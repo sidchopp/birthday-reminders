@@ -1,6 +1,9 @@
 import React from 'react';
 import { Card, Button, Figure, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FaFacebookF } from 'react-icons/fa';
+
+
 import data from './data'
 
 
@@ -26,7 +29,7 @@ const List = ({ people }) => {
               <Card.Text>
                 {birthday}
               </Card.Text>
-              <Button variant="primary" as='a' href={about} target="_blank" >About Me</Button>
+              <Button variant="primary" as='a' href={about} target="_blank" > <FaFacebookF /></Button>
             </Card.Body>
           </Card>
         );

@@ -21,7 +21,6 @@ function App() {
       <section className=' card-main'>
         {/* <h3>List of {people.length} birthdays </h3> */}
         <List people={people} />
-
       </section>
       <div className="d-grid gap-2">
         <Button variant="primary" size="lg" onClick={handleClick}>Click me!</Button>

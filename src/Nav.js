@@ -6,7 +6,6 @@ function Nav() {
       <Navbar sticky="top" bg="dark" variant="dark" >
         <Container>
           <Navbar.Brand style={{ fontSize: '2.1rem' }}> <i class="bi bi-calendar3"></i> </Navbar.Brand>
-
           <Navbar.Brand style={{ fontSize: '2rem' }}>BirthDay's </Navbar.Brand>
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
@@ -15,7 +14,6 @@ function Nav() {
               </div>
             </Navbar.Text>
           </Navbar.Collapse>
-
         </Container>
       </Navbar></>
   )

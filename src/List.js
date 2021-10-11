@@ -9,7 +9,7 @@ const List = ({ people }) => {
         const { id, name, birthday, image, about, nickname } = person;
         return (
           <Card className="text-center bg-dark text-white  " key={id} >
-            <Card.Header >{person.name}</Card.Header>
+            <Card.Header >{name}</Card.Header>
             <Card.Img
               width={300}
               height={400}

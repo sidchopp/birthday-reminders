@@ -10,6 +10,7 @@ import './maincard.css'
 
 function MainCard() {
   const [people, setPeople] = useState(data)
+  // console.log(people);
   // for toggle 
   // const handleClick = () => {
   //   if (people === data) {

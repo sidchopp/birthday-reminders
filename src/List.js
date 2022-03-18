@@ -1,8 +1,9 @@
 import React from 'react';
-import { Card, Button, Figure } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const List = ({ people }) => {
+  // console.log(people);
   return (
     <>
       {people.map((person) => {
@@ -22,7 +23,7 @@ const List = ({ people }) => {
               <Card.Text>
                 <i>{birthday}</i>
               </Card.Text>
-              <Button as='a' href={about} target="_blank" > <i class="bi bi-facebook"></i></Button>
+              <Button as='a' href={about} target="_blank" > <i className="bi bi-facebook"></i></Button>
             </Card.Body>
           </Card>
         );
